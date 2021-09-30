@@ -1,6 +1,6 @@
 <div style="text-align: justify">
-# Instructions for Kick Starting ReactJS
 
+# Instructions for Kick Starting ReactJS
 
 In this tutorial we will learn how to add react to a website and create a new React App. 
 
