@@ -5,10 +5,13 @@ const e = React.createElement;
 class LikeButton extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { liked: false };
+    this.state = {
+      liked: false,
+      newthing: "",
+    };
   }
 
-  // We can change this function by using the react life cycle component
+  // // We can change this function by using the react life cycle component
   // changeDisplayText() {
   //   const displayTextElement = document.querySelector("#display-text");
   //   displayTextElement.innerHTML = this.state.liked
@@ -34,14 +37,16 @@ class LikeButton extends React.Component {
       : "Would you give me a like?";
   }
 
-  render() {
-    // this.changeDisplayText();
-
+  moveDiv() {
     return e(
       "button",
       { onClick: () => this.setState({ liked: !this.state.liked }) },
       "Like"
     );
+  }
+
+  render() {
+    return e("div", this.moveDiv());
   }
 }
 

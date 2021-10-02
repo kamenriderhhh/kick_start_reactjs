@@ -1,0 +1,17 @@
+.light-theme {
+  background-color: burlywood;
+  color: black;
+  height: 450px;
+}
+
+.dark-theme {
+  background-color: black;
+  color: greenyellow;
+  height: 450px;
+}
+
+.cyan-theme {
+  background-color: cyan;
+  color: red;
+  height: 450px;
+}
